@@ -1,0 +1,8 @@
+@import url(./_ru/header__lang-link_rus.css);
+@import url(./_en/header__lang-link_en.css);
+
+.header__lang-link {
+  color: #fff;
+  font-size: 24px;
+  font-weight: normal;
+}

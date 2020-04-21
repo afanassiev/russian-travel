@@ -1,0 +1,7 @@
+@import url(./_links/footer__item_links.css);
+
+.footer__item {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
