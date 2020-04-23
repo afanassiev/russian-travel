@@ -2,4 +2,9 @@
   font-size: 18px;
   color: white;
   line-height: 1.22;
+  transition: opacity .25s ease-in-out;
+}
+
+.place__website_link:hover {
+  opacity: 0.8;
 }

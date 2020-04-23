@@ -10,3 +10,31 @@
   align-items: flex-end;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    max-width: 720px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .footer {
+    margin-top: 64px;
+    margin-left: 16px;
+    max-width: 186px;
+    min-height: 310px;
+    flex-direction: column;
+  }
+}

@@ -3,9 +3,7 @@
 @import url(./__lang-link/header__lang-link.css);
 
 .header {
-  margin-top: 28px;
-  margin-bottom: 56px;
-  padding-right: 48px;
+  margin: 28px 48px 48px 48px;
   min-width: 288px;
   height: 52px;
   /*max-width: 1184px;*/
@@ -13,25 +11,29 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 425px) {
-  .header {
-    max-width: 288px;
-    margin-top: 16px;
-    padding-right: 16px;
-  }
+@media screen and (max-width: 1280px) {
+
+}
+
+@media screen and (max-width: 1024px) {
+ .header {
+   max-width: 928px;
+ }
 }
 
 @media screen and (max-width: 768px) {
   .header {
     max-width: 720px;
-    padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 1280) {
-
+@media screen and (max-width: 425px) {
+  .header {
+    min-height: 42px;
+    margin: 16px 16px 48px 16px;
+    padding: 0;
+  }
 }

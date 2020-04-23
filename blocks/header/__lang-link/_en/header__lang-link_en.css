@@ -2,4 +2,16 @@
   width: 29px;
   height: 28px;
   text-decoration: none;
+  transition: opacity .25s ease-in-out;
+}
+
+.header__lang-link_en:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 425px) {
+  .header__lang-link_en {
+    width: 22px;
+    height: 24px;
+  }
 }

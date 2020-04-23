@@ -11,3 +11,26 @@
   /*opacity: 1;*/
   z-index: 1;
 }
+
+@media screen and (max-width: 1024px) {
+    .cover__title {
+      max-width: 560px;
+      min-height: 152px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__title {
+    max-width: 560px;
+    min-height: 152px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .cover__title {
+    max-width: 288px;
+    min-height: 70px;
+    font-size: 32px;
+    line-height: 1.09;
+  }
+}
