@@ -1,5 +1,6 @@
 .place__website_link {
   font-size: 18px;
+  font-weight: normal;
   color: white;
   line-height: 1.22;
   transition: opacity .25s ease-in-out;

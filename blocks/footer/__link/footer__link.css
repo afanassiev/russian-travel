@@ -4,6 +4,7 @@
   color: white;
   font-size: 18px;
   line-height: 1.12;
+  font-weight: normal;
   transition: opacity .25s ease-in-out;
 }
 

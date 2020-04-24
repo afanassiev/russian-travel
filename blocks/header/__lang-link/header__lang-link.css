@@ -1,4 +1,4 @@
-@import url(./_ru/header__lang-link_rus.css);
+@import url(_rus/header__lang-link_rus.css);
 @import url(./_en/header__lang-link_en.css);
 
 .header__lang-link {
