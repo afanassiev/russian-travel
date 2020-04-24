@@ -1,0 +1,9 @@
+@import url(./_descr/intro__list-item_descr.css);
+@import url(../__list-item-number/intro__list-item-number.css);
+
+.intro__list-item {
+    font-size: 12px;
+    color: white;
+    line-height: 1.5;
+    font-weight: bold;
+}

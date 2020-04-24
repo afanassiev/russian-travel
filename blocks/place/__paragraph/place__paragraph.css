@@ -13,9 +13,16 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 712px) {
   .place__paragraph {
     width: 90vw;
+    margin-left: auto;
+  }
+
+}
+
+@media screen and (max-width: 425px) {
+  .place__paragraph {
     margin-left: 16px;
   }
 }

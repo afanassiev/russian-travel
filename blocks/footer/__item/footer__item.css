@@ -1,13 +1,8 @@
-@import url(./_links/footer__item_links.css);
-
 .footer__item {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-}
-
-@media screen and (max-width: 425px) {
-  .footer__item {
-
-  }
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
