@@ -22,12 +22,18 @@
 
 @media screen and (max-width: 768px) {
   .cover {
-    /*min-height: 480px;*/
+    min-height: 70vh;
   }
 }
 
 @media screen and (max-width: 425px) {
   .cover {
-    /*min-height: 200px;*/
+    min-height: 50vh;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
   }
 }
